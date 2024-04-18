@@ -76,6 +76,7 @@ public:
         }
     }
 
+
     int countPairs(int arr[], int n)
     {
         // Your code goes here
