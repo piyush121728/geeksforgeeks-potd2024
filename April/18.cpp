@@ -21,3 +21,5 @@ public:
         return v;
     }
 };
+
+// link : https://www.geeksforgeeks.org/problems/count-pairs-in-an-array4145/1
