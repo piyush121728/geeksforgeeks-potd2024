@@ -4,7 +4,7 @@ using namespace std;
 struct Node
 {
     int data;
-    struct node *next;
+    struct Node *next;
 
     Node(int x)
     {
@@ -12,11 +12,13 @@ struct Node
         next = NULL;
     }
 };
+
 struct TreeNode
 {
     int data;
     TreeNode *left;
     TreeNode *right;
+
     TreeNode(int x)
     {
         data = x;
